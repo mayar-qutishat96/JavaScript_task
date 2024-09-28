@@ -1,0 +1,31 @@
+#shoppingListApp {
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#itemList {
+    padding-left: 0;
+}
+
+#itemList li {
+    background-color: #f8f9fa; /* Light grey background */
+    border: 1px solid #dee2e6; /* Bootstrap's border color */
+    list-style-type: none; /* Removes bullet points */
+    margin-bottom: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#newItem {
+    margin-bottom: 10px;
+}
+
+.btn-delete {
+    color: #fff;
+    background-color: #dc3545; /* Bootstrap red */
+    border-color: #dc3545;
+}
